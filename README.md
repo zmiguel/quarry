@@ -28,4 +28,4 @@ More flags and customization to come.
 * Remember where it left off in a layer before going up to drop stuff in the chest, so when it comes back doesn't need to "restart" the layer.
 * Proper rednet communication with maybe a proper monitor program that prints out a diagram of where the turtle is in real time, with options like "come back up".
 * Option not to throw, or specifying what "thrash" is.
-* Option to specify layer size, now hard coded as 16x16.
+* <s>Option to specify layer size, now hard coded as 16x16.</s>
