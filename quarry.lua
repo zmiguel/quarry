@@ -4,7 +4,9 @@ os.loadAPI("t")
 local x = 0
 local y = 0
 local z = 0
+io.write("Quarry Size? ")
 local max = 16
+max = tonumber(io.read())
 local deep = 64
 local facingfw = true
 
@@ -57,8 +59,9 @@ function dropInChest()
 	local success, data = turtle.inspect()
 	
 	if success then
-		if data.name == "minecraft:chest" then
-		
+		--if data.name == "minecraft:chest" then
+		if string.find(data.name,"chest") then
+			
 			out("Dropping items in chest")
 			
 			for i=1, 16 do
